@@ -1,0 +1,464 @@
+@media screen and (max-width: 576px) {
+  /* first-page */
+
+  #hero .hero-img {
+    background-image: url("./assets/herobg1.png");
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  #annihilation .sm-padding {
+    padding: 20px 0px !important;
+  }
+
+  #form .CountryForm {
+    width: 100% !important;
+    margin-top: 5px;
+  }
+
+  #form .formHeading{
+    font-size: 27px !important;
+  }
+  #form .formTxt{
+    font-size: 14px !important;
+  }
+
+  footer .copyRight p {
+    font-size: 10px;
+  }
+
+
+
+  /* -------- */
+
+  /* second-page */
+  #BannerBg .bgHero .BanerHeading {
+    font-size: 1.5625rem !important;
+  }
+  #BannerBg .bgHero .BanerText {
+    font-size: 15px !important;
+  }
+
+  /* -------- */
+
+  /* third section */
+  #exporeMysterious .mysteriousImg {
+    height: 350px;
+  }
+  #exporeMysterious .UnrealImgContainer {
+    display: flex;
+    justify-content: center;
+  }
+  /* -------- */
+  /* fourth section */
+
+  #melancholic .melancholicText,
+  #Escaped .escapedText {
+    font-size: 0.75rem !important;
+  }
+  #melancholic .melancholicText2 {
+    font-size: 0.75rem !important;
+    line-height: 1.2;
+  }
+  #melancholic .melancholicHeading,
+  #Escaped .escapedHeading {
+    font-size: 20px !important;
+  }
+
+  /* -------- */
+
+  /* 3third page */
+  #Scarlett .ScarlettHeading {
+    font-size: 2rem !important;
+  }
+
+  #Scarlett .ScarlettText {
+    font-size: 1.2rem;
+    list-style: 1.2;
+  }
+
+  /* slider section */
+  #slider .sliderHeading {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  #coFounder .coFounderHeading,#Whisky .WhiskyHeading,#operator .operatorHeading{
+    font-size: 1.3rem !important;
+  }
+
+  #form form label h2 {
+    font-size: 23px !important;
+}
+#slider .arrowImg{
+display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+  /* first-page */
+
+  #hero .hero-img {
+    background-image: url("./assets/herobg1.png");
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+
+  #Compendia .card .card-body a {
+    font-size: 16px;
+  }
+
+  /* Third section */
+
+  #annihilation .imgHeading h3 {
+    font-size: 16px !important;
+  }
+  #annihilation .imgHeading p {
+    font-size: 12px;
+  }
+
+
+ 
+  /* -------- */
+
+  /* second-page */
+  #BannerBg .bgHero {
+    background-image: url("./assets/Banner.jpg");
+    background-position: 20%;
+    background-size: cover;
+  }
+  #BannerBg .bgHero .BanerHeading {
+    font-size: 2.125rem;
+  }
+  #BannerBg .bgHero .BanerText {
+    font-size: 1.1875rem;
+  }
+
+  #exporeMysterious .exporeHeading {
+    font-size: 2rem !important;
+  }
+  #exporeMysterious .exporeText {
+    font-size: 16px !important;
+  }
+  /* -------- */
+
+  /* third section */
+  #melancholic .melancholicImg {
+    height: 200px;
+  }
+
+  #melancholic .melancholicText,
+  #Escaped .escapedText {
+    font-size: 1rem;
+  }
+  #melancholic .melancholicText2 {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  #melancholic .melancholicHeading,
+  #Escaped .escapedHeading {
+    font-size: 25px;
+  }
+
+  /* 3third page */
+  #Scarlett .ScarlettHeading {
+    font-size: 2.5rem;
+  }
+
+  #support .supportHeading2 {
+    font-size: 22px !important;
+  }
+
+  #benefits .unList .list,
+  #benefits .unList a {
+    font-size: 14px !important;
+  }
+
+  #benefits .benefitsHeading {
+    font-size: 3rem;
+  }
+
+  /* fouth page */
+  #coFounder .coFounderImgHead {
+    left: 20% !important;
+    bottom: 0%;
+  }
+
+
+
+  #operator .card-text {
+    text-align: center;
+  }
+
+
+
+  #contactUs .contactUsHeading{
+    font-size: 46px;
+    
+    font-stretch: ultra-condensed;
+  }
+  #contactUs .contactUsText{
+    font-size: 14px;
+  }
+
+  #slider .sliderHeading {
+    font-size: 21px !important;
+}
+
+
+select {
+
+  font-size: 23px !important;
+
+}
+
+#coFounder .coFounderImgHead .ImgHead{
+  font-size: 40px !important;
+}
+#coFounder .coFounderText{
+  font-size: 24px !important;
+}
+
+#coFounder .coFounderImg {
+  background-image:url("./assets/Profile_Angry_Octopus_Fabricatore.png") !important;
+}
+#coFounder .coFounderImgHead{
+  display: block !important;
+}
+#coFounder .coFounderImgHead {
+  left: 20% !important;
+  bottom: 1% !important;
+}
+
+}
+
+@media screen and (max-width: 993px) {
+  /* page four */
+
+  #company .companyText {
+    font-size: 1.5rem;
+  }
+
+  /* hero section */
+  #hero h1 {
+    font-size: 26px !important;
+  }
+  #hero p {
+    font-size: 16px !important;
+  }
+
+  #BannerBg .bgHero .BanerHeading{
+    font-size: 47px !important;
+
+  }
+  #BannerBg .bgHero .BanerText{
+    font-size: 21px !important;
+  }
+
+  #support .supportHeading{
+    font-size: 30px !important;
+
+  }
+ 
+  #coFounder .coFounderImg{
+
+    background-position:center;
+    height: 400px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 1217px) {
+ 
+
+  .brand2 img {
+    width: 20px;
+    height: 20px;
+  }
+  .brand2 img .img {
+    width: 10px;
+    height: 20px;
+  }
+  /* hero section */
+  
+  #hero h1 {
+    font-size: 44px;
+}
+#hero p{
+  font-size: 22px;
+ }
+
+ #Compendia h1{
+  font-size: 43px;
+ }
+ 
+ #Compendia .pgCard,#Compendia p{
+  font-size: 17px;
+}
+
+#annihilation p{
+  font-size: 17px;
+ }
+
+ #annihilation .immerseHeading{
+  font-size: 29px !important;
+ }
+ #annihilation .immerseTxt{
+  font-size: 15px;
+ }
+
+ #annihilation .exlporeHeaidng{
+  font-size: 25px !important;
+ }
+
+ #annihilation .encounterHeaidng{
+  font-size: 27px  !important;
+ }
+  /* second page */
+
+  #BannerBg .bgHero .BanerHeading{
+    font-size: 84px;
+    
+    font-stretch: ultra-condensed;
+  }
+  #BannerBg .bgHero .BanerText{
+    font-size: 29px;
+  }
+
+  /* firstSection Expore */
+
+  #exporeMysterious .exporeHeading {
+    font-size: 67px;
+  }
+  #exporeMysterious .exporeText {
+    font-size: 33px;
+  }
+
+  /* -------- */
+
+  /* third */
+  #Scarlett .ScarlettHeading{
+    font-size: 73px;
+
+  }
+  #Scarlett .ScarlettText{
+    font-size: 25px;
+    
+  }
+
+  #slider .sliderHeading{
+    font-size: 32px;
+  }
+  /* page four */
+ 
+
+  #Scarlett .ScarlettBg{
+    background-size: cover;
+    
+  }
+  #support .supportHeading{
+    font-size: 55px;
+  }
+  #support .supportHeading2{
+    font-size: 32px;
+  }
+
+  #benefits .benefitsHeading{
+    font-size: 60px;
+  }
+  #benefits .unList .list,#benefits .unList a{
+    font-size: 30px;
+    }
+
+    /* page 5 */
+    #contactUs .contactUsText{
+      font-size: 24px;
+    }
+
+    footer a p {
+      font-size: 13px;
+  }
+
+
+  #coFounder .coFounderText{
+    font-size: 20px;
+  }
+  #coFounder .coFounderImg{
+    background-image:url("./assets/Profile_Angry_Octopus_Fabricatore2.png");
+    
+  }
+  #coFounder .coFounderImgHead{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1335px) {
+  nav .brand .t1 {
+    font-size: 18px !important;
+  }
+  nav .brand .t2 {
+    font-size: 16px !important;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+    
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  nav .brand .t1 {
+    display: none;
+  }
+  nav .brand .t2 {
+    display: none;
+  }
+  .brand2 {
+    display: none;
+  }
+  nav ul li a {
+    font-size: 16px;
+
+  }
+  #form .CountryForm {
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+  #Scarlett .ScarlettHeading {
+    font-size: 4rem !important;
+  }
+
+  /* thirdpage */
+  #benefits .unList .list,
+  #benefits .unList a {
+    font-size: 20px;
+  }
+
+  #form form label h2{
+    font-size: 33px;  
+    }
+    #form form label p{
+      font-size: 16px;
+    }
+
+  
+    #form .formtxt input[type="text"], #form .formtxt input[type="email"]{
+
+    font-size: 23px;
+    }
+  
+    ::placeholder{
+
+      font-size: 23px;
+
+    }
+  select {
+
+      font-size: 16px;
+
+  }
+  #form .form-control{
+    padding: 6px 10px;
+  }
+  
+}

@@ -1,0 +1,949 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./font/DIN\ 1451\ Engschrift\ LT.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+  font-family: myFirstFont, sans-serif !important;
+}
+
+body {
+  position: relative;
+  background-color: #000000;
+}
+/* body::before{
+content: "";
+background-image:url('./assets/Background/Group\ 9.png');
+background-image:url('./assets/Background/body.png');
+background-repeat: no-repeat;
+opacity: 1;
+position: absolute;
+background-position: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1; 
+
+} */
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  padding: 0rem 1rem;
+}
+
+nav {
+  background-color: black;
+}
+nav .brand {
+  display: flex;
+  flex-direction: column;
+}
+nav .brand .t1 {
+  font-size: 21px !important;
+  font-family: myFirstFont, sans-serif !important;
+}
+nav .brand .t2 {
+  font-size: 17px !important;
+  font-family: myFirstFont, sans-serif !important;
+}
+
+nav ul li a {
+  font-size: 20px;
+  font-family: myFirstFont, sans-serif !important;
+}
+
+/* first section */
+#hero {
+  position: relative;
+}
+#hero::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* #hero .hero-img {
+  background-image:url("./assets/Group\ 11.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position:center;
+  width: 100% !important;
+  height: 600px;
+} */
+#hero .hero-img {
+  width: 100%;
+  min-height: 80vh;
+}
+
+#hero h1 {
+  font-size: 55px;
+}
+#hero p {
+  font-size: 23px;
+}
+/* second section */
+#Compendia {
+  position: relative;
+}
+#Compendia::before {
+  content: "";
+  background-image: url("./assets/Background/2.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#Compendia h1 {
+  font-size: 50px;
+}
+
+#Compendia .pgCard,
+#Compendia p {
+  font-size: 21px;
+  font-family: myFirstFont;
+}
+
+/* Third section */
+#annihilation {
+  position: relative;
+}
+#annihilation::before {
+  content: "";
+  background-image: url("./assets/Background/3.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#annihilation h1 {
+  font-size: 50px;
+}
+#annihilation .immerseHeading {
+  font-size: 33px !important;
+}
+#annihilation .exlporeHeaidng {
+  font-size: 30px !important;
+}
+#annihilation .encounterHeaidng {
+  font-size: 31px !important;
+}
+#annihilation h3 {
+  font-size: 23px !important;
+}
+#annihilation p {
+  font-size: 21px;
+}
+#annihilation .immerseTxt {
+  font-size: 18px;
+}
+#annihilation .img1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("./assets/bgcard10.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+#annihilation .img2 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("./assets/UE5/3.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+#annihilation .img3 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("./assets/Group\ 10.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+#Compendia .card .card-body a {
+  color: rgb(255, 255, 255);
+}
+#Compendia .card .card-body a:hover {
+  color: gray;
+}
+/* formSection */
+#form {
+  position: relative;
+}
+#form::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#form .formbg {
+  background-image: url("./assets/1.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+#form .formHeading {
+  font-size: 42px;
+}
+#form .formTxt {
+  font-size: 21px;
+}
+#form form label h2 {
+  font-size: 40px;
+  font-stretch: ultra-condensed;
+}
+#form form label p {
+  color: grey !important;
+  font-size: 21px;
+}
+#form .form-control {
+  background-color: transparent !important;
+  border-radius: 0;
+  border: none;
+  padding: 10px 10px;
+}
+#form .selDiv {
+  width: 100%;
+}
+
+#form .formtxt input[type="text"],
+#form .formtxt input[type="email"] {
+  color: white;
+  font-size: 23px;
+}
+
+::placeholder {
+  color: grey !important;
+  opacity: 1;
+  font-size: 23px;
+  font-family: myFirstFont;
+}
+select {
+  text-transform: none;
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 23px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: myFirstFont;
+}
+select:focus {
+  outline: none;
+}
+select option {
+  background-color: black;
+  color: white;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: none;
+  box-shadow: none;
+}
+
+form .bdr {
+  border: 2px solid white;
+}
+
+footer .footer-img img {
+  max-width: 100%;
+  height: 150px;
+  opacity: 0.3;
+}
+footer p {
+  color: gray;
+  font: 16px;
+}
+footer a p {
+  font-size: 16px;
+}
+footer a {
+  list-style: none;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: none;
+}
+footer .copyRight p {
+  font-size: 16px;
+}
+
+/* second page SCPAnnihilation */
+/* firstSection */
+
+#BannerBg {
+  position: relative;
+}
+#BannerBg::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#BannerBg .bgHero {
+  background-image: url("./assets/Banner1.png") !important;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: left center;
+  background-size: cover;
+  height: 90vh;
+}
+#BannerBg .bgHero .BanerHeading {
+  font-size: 100px;
+
+  font-stretch: ultra-condensed;
+}
+#BannerBg .bgHero .BanerText {
+  font-size: 33px;
+}
+
+/* ------ */
+
+/* firstSection Expore */
+
+#exporeMysterious {
+  position: relative;
+}
+#exporeMysterious::before {
+  content: "";
+  background-image: url("./assets/Background/2.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#exporeMysterious .mysteriousImg {
+  background-image: url("./assets/UE5/Architecture_044.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+}
+
+#exporeMysterious .exporeHeading {
+  font-size: 87px;
+
+  font-stretch: ultra-condensed;
+}
+#exporeMysterious .exporeText {
+  font-size: 34px;
+}
+
+/* third-section */
+#melancholic {
+  position: relative;
+}
+#melancholic::before {
+  content: "";
+  background-image: url("./assets/Background/3.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#melancholic .melancholicText {
+  font-size: 36px;
+}
+#Escaped {
+  position: relative;
+}
+#Escaped::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#Escaped .escapedText {
+  font-size: 30px;
+}
+
+#melancholic .melancholicText2 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+#melancholic .melancholicHeading,
+#Escaped .escapedHeading {
+  font-size: 72px;
+
+  font-stretch: ultra-condensed;
+}
+#melancholic .melancholicImg {
+  background-image: url("./assets/UE5/Architecture_06.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+}
+
+/* third page */
+
+#Scarlett {
+  position: relative;
+}
+#Scarlett::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#Scarlett .ScarlettBg {
+  background-image: url("./assets/SCP_Scarlett_King2.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+#Scarlett .ScarlettHeading {
+  font-size: 86px;
+
+  font-stretch: ultra-condensed;
+}
+#Scarlett .ScarlettText {
+  font-size: 30px;
+}
+
+/* slinderSection */
+
+#slider {
+  position: relative;
+}
+#slider::before {
+  content: "";
+  background-image: url("./assets/Background/2.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.slidr {
+  overflow: hidden;
+}
+
+#slider .sliderHeading {
+  font-size: 38px;
+  font-stretch: ultra-condensed;
+}
+#slider .img-thumbnail {
+  border: 4px solid #000000 !important;
+  background-color: #000000;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "";
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "";
+}
+#slider .arrowImg {
+  height: 35px;
+  width: 35px;
+  opacity: 0.4;
+}
+#support {
+  position: relative;
+}
+#support::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#support .supportHeading {
+  font-size: 65px;
+  font-weight: 600;
+}
+#support .supportHeading2 {
+  font-size: 38px;
+  font-stretch: ultra-condensed;
+}
+#support .imgFluid {
+  max-width: 100%;
+  height: auto;
+}
+#support .imgfluid {
+  max-width: 102%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* benefits */
+#benefits {
+  position: relative;
+}
+#benefits::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#benefits .benefitsHeading {
+  font-size: 65px;
+
+  font-stretch: ultra-condensed;
+}
+#benefits .pateronImg {
+  width: 70%;
+  height: auto;
+}
+#benefits .benfitsImg {
+  background-image: url("./assets/mask.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+}
+
+#benefits .unList {
+  color: white;
+}
+#benefits .unList .list,
+#benefits .unList a {
+  font-size: 35px;
+  padding: 3px 0px;
+  font-family: myFirstFont;
+}
+#benefits .unList .list a,
+#benefits .unList a {
+  color: white;
+}
+#benefits .unList .list a:hover,
+#benefits .unList a:hover {
+  color: gray;
+}
+#benefits .unList a {
+  text-decoration: none;
+}
+
+/* fouth page */
+
+#coFounder {
+  position: relative;
+}
+#coFounder::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#coFounder .coFounderImg {
+  background-image: url("./assets/Profile_Angry_Octopus_Fabricatore.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+#coFounder .coFounderImgHead {
+  position: absolute;
+  left: 24%;
+  bottom: 20%;
+}
+#coFounder .coFounderImgHead .ImgHead {
+  font-size: 36px;
+
+  font-stretch: ultra-condensed;
+}
+#coFounder .coFounderHeading,
+#Whisky .WhiskyHeading,
+#operator .operatorHeading {
+  font-size: 48px;
+
+  font-stretch: ultra-condensed;
+}
+#coFounder .coFounderText {
+  font-size: 24px;
+}
+#Whisky .Whiskytext {
+  font-size: 26px;
+}
+
+/* Whiskytext */
+#Whisky {
+  position: relative;
+}
+#Whisky::before {
+  content: "";
+  background-image: url("./assets/Background/2.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#Whisky .WhiskytextSmall {
+  font-size: 25px;
+}
+#Whisky .WhiskytextSmall span {
+  color: #1d3b3b;
+  font-weight: bold;
+}
+#operator .card-text {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* cards */
+#operator {
+  position: relative;
+}
+#operator::before {
+  content: "";
+  background-image: url("./assets/Background/3.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.card-body .card-title {
+  font-size: 24px;
+}
+
+/* contact page */
+#contactUs {
+  position: relative;
+}
+#contactUs::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#contactUs .contactUsBg {
+  background-image: url("./assets/contactbg.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+#contactUs .contactUsHeading {
+  font-size: 85px;
+
+  font-stretch: ultra-condensed;
+}
+#contactUs .contactUsText {
+  font-size: 28px;
+}
+
+/* company */
+#company {
+  position: relative;
+}
+#company::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#company .companyHeading {
+  font-size: 48px;
+
+  font-stretch: ultra-condensed;
+}
+#company .companyText {
+  font-size: 34px;
+
+  font-stretch: ultra-condensed;
+}
+#company .companyText a {
+  color: white;
+  text-decoration: none;
+}
+#company .companyText a:hover {
+  color: gray;
+}
+
+#media {
+  position: relative;
+}
+#media::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#media .mediaHead,
+#message .messageHead {
+  font-size: 48px;
+
+  font-stretch: ultra-condensed;
+}
+
+#media .mediaTxt {
+  font-size: 24px;
+
+  font-stretch: ultra-condensed;
+}
+
+#socialmedia {
+  position: relative;
+}
+#socialmedia::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#message {
+  position: relative;
+}
+#message::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#message .messageBg {
+  position: relative;
+}
+#message .messageBg::before {
+  content: "";
+  background-image: url("./assets/Background/1.png");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#message .messageBg .form-group label {
+  color: white;
+  font-size: 20px;
+
+  font-stretch: ultra-condensed;
+}
+#message .padding {
+  padding-top: 2.2rem;
+}
+#message .messageBg form .formControl {
+  display: block !important;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  color: white;
+}
